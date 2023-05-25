@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+
+body {
+    background-image: url(../imagens/P.fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color: #16f702;
+}
+
+.cabecalho img{
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+.input p {
+    color: #fdfdfd;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #18f704de;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+ .input ::placeholder{
+    color: #f76402;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f76402;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: #f76402;
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+    color: #f76402;
+}
+
+#output img{
+    max-width:350px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-bnt button{
+    background-color: transparent;
+    border: 2px solid #f76402;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f76402;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    background-color: transparent;
+    border: 2px solid #f76402;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #f76402;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background-color: #f7640263;
+    border: 2px solid #06ff13;
+    color: #0cfa04e3;
+    transition: 0.5s all;
+}
+
+.container-bnt button:hover{
+    background-color: #f7640263;
+   border: 2px solid #06ff13;
+   color: #0cfa04e3;
+   transition: 0.5s all;
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background: #17f8031c ;
+    color: #ffffff;
+}
+
+.rodape h3{
+    font-size: 10px;
+    text-align: center;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+
+.icons ion-icon:hover{
+    color: #f76402;
+}
+
+
+
+
+
+
+
+
+
+
+
