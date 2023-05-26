@@ -1,0 +1,33 @@
+@media screen and (max-width:375px) {
+    
+    
+body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+.cabecalho h1 {
+    font-size: 28px;
+}
+
+#input-texto {
+    width: 100px;
+    height: 100px;
+}
+
+.output{
+    width;
+}
