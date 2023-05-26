@@ -9,16 +9,16 @@
   }
 
   body {
-   background-image: url(../imagens/fundo2.jpg);
+   background-image: url(../imagens/fundo-mobile.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center center;
+   background-position: top 1px center;
    
 }
    .cabecalho h1 {
       position: relative;
       font-size: 20px;
-      top: 35px;
+      top: 40px;
       left: 6px;
       margin: 0 auto;
 
@@ -41,7 +41,7 @@
    #output{
       position: absolute;
       align-items: center;
-      top: 29%;
+      top: 37%;
       left: 55px;
       width: 67%;
       height: 28%;
@@ -50,10 +50,10 @@
 
    #input-texto{
       position: relative;
-      top: 14px;
-      right: 10px;
-      width: 235px;
-      height: 120px;
+      top: 50px;
+      right: 5px;
+      width: 244px;
+      height: 163px;
       font-size: 16px;
    }
 
@@ -81,7 +81,7 @@
 
    .container-bnt{
       position: relative;
-      top: 60px;
+      top: 150px;
       left: 20px;
       display: flex;
       align-items: center;
@@ -104,6 +104,8 @@
    }
 
    .rodape{
+      position: relative;
+      top: 112px;
       display: flex;
       flex-direction: column;
       align-items: center;
