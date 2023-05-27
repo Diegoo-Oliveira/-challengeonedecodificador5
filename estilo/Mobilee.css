@@ -29,6 +29,10 @@
         margin: 2em 0;
     }
 
+    .input p {
+        color: #00fa21;
+    }
+
     #output {
         margin: 0 auto;
     }
